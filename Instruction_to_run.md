@@ -1,34 +1,48 @@
-# To run the Call_Quality_Analyzer_Final.ipynb notebook, follow these simple steps:
+# 📞 Call Quality Analyzer – Quick Start Guide
 
-Open Google Colab:
-Visit https://colab.research.google.com/.
+Easily analyze any sales call recording for **talk-time ratio, questions asked, monologue duration, sentiment, and actionable insights** — all in under **30 seconds** on Google Colab (free CPU tier).  
 
-Upload the Notebook:
-Click on File > Upload notebook and select the Call_Quality_Analyzer_Final.ipynb file from your local system.
+---
 
-Install Dependencies:
-Run the first code cell to install required packages (yt-dlp, faster-whisper, vaderSentiment, and textblob).
+## 🚀 How to Run the Notebook
 
-Run All Cells Sequentially:
-Click Runtime > Run all to execute the notebook end-to-end. This will:
+### 1. Open Google Colab  
+👉 Visit [Google Colab](https://colab.research.google.com/)
 
-Download YouTube audio from the preset test file URL(you can also provide your custom youtube url)
+### 2. Upload the Notebook  
+- Go to **File > Upload notebook**  
+- Select **`Call_Quality_Analyzer_Final.ipynb`** from your local system  
 
-Transcribe the audio using the faster-whisper tiny model
+### 3. Install Dependencies  
+- Run the **first code cell** to install required packages:  
+  - `yt-dlp`  
+  - `faster-whisper`  
+  - `vaderSentiment`  
+  - `textblob`  
 
-Detect speakers and calculate talk time ratios
+### 4. Run All Cells Sequentially  
+- Click **Runtime > Run all**  
+- The notebook will automatically:  
+  1. **Download YouTube audio** (preset test file URL, or your custom link)  
+  2. **Transcribe audio** using the *faster-whisper tiny model*  
+  3. **Detect speakers** & calculate **talk-time ratios**  
+  4. **Identify all questions asked** with high accuracy  
+  5. **Analyze call sentiment**  
+  6. **Generate actionable insights**  
+  7. **Display comprehensive results** for full transparency  
 
-Detect and display all questions asked with enhanced accuracy
+### 5. View Results  
+- Results appear directly inside the notebook:  
+  - ✅ Total number of questions detected  
+  - ✅ Numbered list of all questions (easy validation)  
+  - ✅ Sentiment scores, talk-time ratio, and insights  
 
-Analyze call sentiment
+---
 
-Generate actionable insights
+## ⚡ Performance  
+- Designed for **Google Colab (Free CPU)**  
+- Typical call analysis completes in **15–25 seconds**  
 
-Display comprehensive results with full transparency
+---
 
-View Output:
-Results will print within the notebook, including the total questions detected and a numbered list showing all detected questions for easy validation.
-
-This notebook is designed to run efficiently on Google Colab’s free CPU-only tier, completing typical sales call analysis within 15-25 seconds.
-
-Just follow these steps to get a fast, transparent, and detailed call quality analysis!
+✨ Just follow these steps for a **fast, transparent, and detailed call quality analysis**!

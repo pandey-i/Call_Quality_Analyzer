@@ -29,7 +29,7 @@ Removes duplicates while preserving unique questions
 
 Provides complete transparency of detection process
 
-#⚡ Performance Optimizations:
+# ⚡Performance Optimizations:
 
 CPU-only processing (free tier compatible)
 

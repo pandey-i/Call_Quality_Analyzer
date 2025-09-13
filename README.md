@@ -15,7 +15,7 @@ Complete Question Detection: Shows ALL detected questions with enhanced accuracy
 
 Metrics Engine: Multi-algorithm approach for comprehensive analysis
 
-🔍 Final Enhanced Question Detection:
+# 🔍 Final Enhanced Question Detection:
 
 Prioritizes question marks as primary indicator
 
@@ -29,7 +29,7 @@ Removes duplicates while preserving unique questions
 
 Provides complete transparency of detection process
 
-⚡ Performance Optimizations:
+#⚡ Performance Optimizations:
 
 CPU-only processing (free tier compatible)
 

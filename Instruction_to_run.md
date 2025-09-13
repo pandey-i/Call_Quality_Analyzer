@@ -6,21 +6,20 @@ Easily analyze any sales call recording for **talk-time ratio, questions asked, 
 
 ## 🚀 How to Run the Notebook
 
-### 1. Open Google Colab  
-👉 Visit [Google Colab](https://colab.research.google.com/)
+### 1. Open in Colab
+Click the badge below to launch the notebook instantly:  
 
-### 2. Upload the Notebook  
-- Go to **File > Upload notebook**  
-- Select **`Call_Quality_Analyzer_Final.ipynb`** from your local system  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
+https://colab.research.google.com/github/pandey-i/Call_Quality_Analyzer/blob/main/Call_Quality_Analyzer_Final_FIXED.ipynb)  
 
-### 3. Install Dependencies  
+### 2. Install Dependencies  
 - Run the **first code cell** to install required packages:  
   - `yt-dlp`  
   - `faster-whisper`  
   - `vaderSentiment`  
   - `textblob`  
 
-### 4. Run All Cells Sequentially  
+### 3. Run All Cells Sequentially  
 - Click **Runtime > Run all**  
 - The notebook will automatically:  
   1. **Download YouTube audio** (preset test file URL, or your custom link)  
@@ -31,7 +30,7 @@ Easily analyze any sales call recording for **talk-time ratio, questions asked, 
   6. **Generate actionable insights**  
   7. **Display comprehensive results** for full transparency  
 
-### 5. View Results  
+### 4. View Results  
 - Results appear directly inside the notebook:  
   - ✅ Total number of questions detected  
   - ✅ Numbered list of all questions (easy validation)  
